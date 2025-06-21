@@ -1,0 +1,6 @@
+@music_compose_backend_HostAddress = http://localhost:5241
+
+GET {{music_compose_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

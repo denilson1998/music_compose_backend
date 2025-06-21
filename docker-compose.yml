@@ -1,0 +1,6 @@
+services:
+  music_compose_backend:
+    image: ${DOCKER_REGISTRY-}musiccomposebackend
+    build:
+      context: .
+      dockerfile: music_compose_backend/Dockerfile
